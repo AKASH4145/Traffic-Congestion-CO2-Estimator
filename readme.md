@@ -76,7 +76,7 @@ Traffic Congestion & CO2 Estimator/
 
 ## Setup & Run
 
-- git clone <your-repo-url> 
+- git clone https://github.com/AKASH4145/Traffic-Congestion-CO2-Estimator
 - cd traffic-co2-estimator  
 - pip install -r requirements.txt  
 - Download YOLOv3 files  
