@@ -1,6 +1,7 @@
 # Large model weights & videos
 *.weights
 *.mp4
+!Demo Screenshots/Demo Video.mp4
 
 # Outputs
 counts.json
