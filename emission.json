@@ -1,0 +1,14 @@
+{
+  "timestamp": 1772384136,
+  "co2_per_min": 1370,
+  "level": "LOW",
+  "peak_co2": 2192,
+  "peak_time": 1772384093,
+  "recommended_green_time": 30,
+  "recommended_route": "Route C (Inner Road)",
+  "route_emissions": {
+    "Route A (Main Road)": 1370,
+    "Route B (Bypass Road)": 958,
+    "Route C (Inner Road)": 685
+  }
+}
