@@ -1,2 +1,7 @@
 # Large model weights & videos
 *.weights
+*.mp4
+
+# Outputs
+counts.json
+emission.json
