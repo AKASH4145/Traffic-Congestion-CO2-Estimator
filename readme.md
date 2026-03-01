@@ -86,8 +86,8 @@ Traffic Congestion & CO2 Estimator/
 ---
 
 ## Demo Screenshots and Video
- ![Vehicle Detection](<Detection Window.png>)
- ![Dashboard](Dashboard.png)
+ ![Vehicle Detection](Demo%20Screenshots/Detection%20Window.png)
+ ![Dashboard](Demo%20Screenshots/Dashboard.png)
  <video controls src="Demo Screenshots/Demo Video.mp4" title="Demo Video"></video>
 
 ---
