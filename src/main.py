@@ -20,12 +20,12 @@ low = 3000;
 medium = 7000;
 
 # Load YOLOv3
-weight_path=r'C:\Users\akash\Desktop\Traffic Congestion & CO2 Estimator\Yolo\yolov3.weights'
-config_path=r'C:\Users\akash\Desktop\Traffic Congestion & CO2 Estimator\Yolo\yolov3.cfg'
+weight_path=r'C:\Users\akash\Desktop\OpenCV Projects\Traffic Congestion & CO2 Estimator\Yolo\yolov3.weights'
+config_path=r'C:\Users\akash\Desktop\OpenCV Projects\Traffic Congestion & CO2 Estimator\Yolo\yolov3.cfg'
 net = cv2.dnn.readNet(weight_path,config_path)
 
 # Load class names
-with open(r"C:\Users\akash\Desktop\Traffic Congestion & CO2 Estimator\Yolo\coco.names", "r") as f:
+with open(r"C:\Users\akash\Desktop\OpenCV Projects\Traffic Congestion & CO2 Estimator\Yolo\coco.names", "r") as f:
     classes = [line.strip() for line in f.readlines()]
 
 # Get output layer names
@@ -33,7 +33,7 @@ layer_names = net.getLayerNames()
 output_layers = [layer_names[i - 1] for i in net.getUnconnectedOutLayers().flatten()]
 
 # Video source (0 = webcam or put video path)
-cap = cv2.VideoCapture(r'C:\Users\akash\Desktop\Traffic Congestion & CO2 Estimator\Sample videos\traffic1.mp4')
+cap = cv2.VideoCapture(r'C:\Users\akash\Desktop\OpenCV Projects\Traffic Congestion & CO2 Estimator\Sample videos\traffic1.mp4')
 
 while True:
     ret, frame = cap.read()
