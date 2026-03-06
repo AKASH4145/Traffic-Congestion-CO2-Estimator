@@ -1,9 +1,9 @@
 {
-  "timestamp": 1772384136,
+  "timestamp": 1772820365,
   "counts": {
-    "car": 10,
+    "car": 13,
     "bus": 2,
-    "truck": 3,
-    "motorbike": 0
+    "truck": 4,
+    "motorbike": 3
   }
 }
